@@ -25,4 +25,5 @@ def extraer_y_cargar_excel(self):
 print("[Analista] Leyendo archivo mensual de clientes (Simulación)..."
 
 #Simulación de datos que incluye casos de éxito y los Edge Cases Pedidos
-self.clientes_cargados = 
+self.clientes_cargados = [
+Cliente("001", Carlos Mendoza", "A", "2025-05-10"), # Caso Normal (VIP)
