@@ -8,4 +8,5 @@ class Cliente:
   """Representa la entidad de un cliente dentro del negocio comercial."""
 
 def__init__(self, id_cliente: str, nombre: str, fecha_alta: str):
+    selft.id_cliente = id_cliente.strip()
 
