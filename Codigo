@@ -13,6 +13,11 @@ def__init__(self, id_cliente: str, nombre: str, fecha_alta: str):
     self.grupo = grupo.strip().upper()   # Formato esperado: YYYY-MM-DD
 
 
+class ProcesadorEtl:
+   """Clase encargada de la Extracción, Transformación y Carga de datos."""
+
+def __init__(self):
+
 
 
 
