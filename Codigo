@@ -26,7 +26,10 @@ print("[Analista] Leyendo archivo mensual de clientes (Simulación)..."
 
 #Simulación de datos que incluye casos de éxito y los Edge Cases Pedidos
 self.clientes_cargados = [
-Cliente("001", Carlos Mendoza", "A", "2025-05-10"),   # Caso Normal (VIP)
-Cliente("002", "Ana Gómez", "C", "2026-02-14"),   # Caso Normal
-Cliente("003", "Luis Pérez", "b", "2026-03-01"),   # Edge y minúsculas
+    Cliente("001", Carlos Mendoza", "A", "2025-05-10"),   # Caso Normal (VIP)
+    Cliente("002", "Ana Gómez", "C", "2026-02-14"),   # Caso Normal
+    Cliente("003", "Luis Pérez", "b", "2026-03-01"),   # Edge y minúsculas
+    Cliente("004", "Marcos López", "XYZ", "2026-01-20"),   #Edge Case 1: Inválido
+    Cliente("005", "María Ruiz", "B", "2030-12-25"),   # Edge Case 2: Futuro
+]
 
