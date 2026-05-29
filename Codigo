@@ -20,5 +20,8 @@ def __init__(self):
 self.clientes_cargados = []
 self.clientes_validos = []
 
+def extraer_y_cargar_excel(self):
+    """Simula la recepción y carga de datos desorganizados de excel"""
+print("[Analista] Leyendo archivo mensual de clientes (Simulación)..."
 
 
