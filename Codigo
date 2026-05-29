@@ -17,7 +17,8 @@ class ProcesadorEtl:
    """Clase encargada de la Extracción, Transformación y Carga de datos."""
 
 def __init__(self):
-
+self.clientes_cargados = []
+self.clientes_validos = []
 
 
 
