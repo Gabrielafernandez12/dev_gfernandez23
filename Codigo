@@ -3,3 +3,6 @@ import date time
 #======================================================================================
 PROYECTO FINAL: OPTIMIZACION DE CAMPAÑAS DE MARKETING POR SEGMENTACIÓN
 #======================================================================================
+
+class Cliente:
+  """Representa la entidad de un cliente dentro del negocio comercial."""
