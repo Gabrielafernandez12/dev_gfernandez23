@@ -94,4 +94,5 @@ def generar_reporte_estadistico(self, total_validos: int, cant_vips: int):
 
 def acciones_gerenciales(self):
 """Representa las tareas finales del Gerente de Ventas."""
+print("\n[Gerente] Evaluando métricas de redimiento y grupos comerciles ...")
 
