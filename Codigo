@@ -51,4 +51,8 @@ ef validar_datos(cliente: Cliente) -> bool:
    # 1. Validación de Grupos Permitidos (A, B , C, D, E)
 grupos_permitidos = ["A", "B", "C", "D", "E"]
 if clientes.grupo not in grupos_permitidos:
+    print(f"X [REGLA] Rechazado Cliente {client.id_cliente}: "
+          f"Grupo inválido '{cliente.grupo}'.")
+    return False
+
 
