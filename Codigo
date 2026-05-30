@@ -90,7 +90,7 @@ def generar_reporte_estadistico(self, total_validos: int, cant_vips: int):
     print(f"Clientes Estructurados con Exito : {total_validos}")
     print(f"Clientes Grupo VIP (A)         : {cant_vips} {'' * cant_vips"}
     print(f"Clientes Regulares (B, C, D, E)   : {cant_regulares} {'' * cant_regulares}")
-print("=" * 40)
+    print("=" * 40)
 
 def acciones_gerenciales(self):
 
