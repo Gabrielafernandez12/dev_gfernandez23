@@ -81,5 +81,5 @@ ef generar_alerta_vip(self, cliente: Cliente):
          f"{cliente.nombre} (Grupi A)")
 
 def generar_reporte_estadistico(self, total_validos: int, cant_vips: int):
-"""Genera las metricas de distribución (Simulación de Grafico de Barras)."""
-
+    """Genera las metricas de distribución (Simulación de Grafico de Barras)."""
+    cant_regulares = total_validos - cant_vips
