@@ -65,5 +65,12 @@ try:
         print(f" X [REGLA] Rechazado Cliente {cliente.id_cliente}: "
               f"Formato de fecha incorrecto.")
 return False
+except (ValueError, IndexError):
+    print(f"X [Regla] Rechazado Cliente {cliente.id_cliente}: "
+          f"Formato de fecha incorrecto.")
+    return False
+return True
+
+
 
 
