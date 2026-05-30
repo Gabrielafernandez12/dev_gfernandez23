@@ -80,3 +80,4 @@ ef generar_alerta_vip(self, cliente: Cliente):
    print(f"Fuego [AlERTA] ¡Cliente VIP Comercial Detectado! -> "
          f"{cliente.nombre} (Grupi A)")
 
+def generar_reporte_estadistico(self, total_validos: int, cant_vips: int):
