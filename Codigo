@@ -72,7 +72,7 @@ except (ValueError, IndexError):
 return True
 
 
-ReporteComercial:
+ass ReporteComercial:
 """Encargado de las salidas visuales, alertas e interacciónes con genrencia."""
 
 ef generar_alerta_vip(self, cliente: Cliente):
