@@ -42,3 +42,13 @@ clientes_vip = [c for c in self.clientes_validos if c.grupo == "A"]
 clientes_regulares = [c for c in self.clientes_validos if c.grupo != "A"]
 return clientes_vip, clientes_ regulares
 
+
+ValidadorReglaslasNegocio:
+"""Clase encargada de validar la integridad y consistencia de los datos."""
+
+staticmethod
+ef validar_datos(cliente: Cliente) -> bool:
+   # 1. Validación de Grupos Permitidos (A, B , C, D, E)
+grupos_permitidos = ["A", "B", "C", "D", "E"]
+if clientes.grupo not in grupos_permitidos:
+
