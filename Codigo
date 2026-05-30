@@ -32,4 +32,13 @@ self.clientes_cargados = [
     Cliente("004", "Marcos López", "XYZ", "2026-01-20"),   #Edge Case 1: Inválido
     Cliente("005", "María Ruiz", "B", "2030-12-25"),   # Edge Case 2: Futuro
 ]
+total = len(self.clientes_cargados)
+print(f"[Analista] Se detectaron {total} registros en el archivo origen."
+
+ef filtrar_y_clasificar(self):
+"""Separar los clientes aprobados según su grupo comercial (VIP vs Regulares."""
+print("\n[Analista] Clasificando clientes aprobados por el sistema...")
+clientes_vip = [c for c in self.clientes_validos if c.grupo == "A"]
+clientes_regulares = [c for c in self.clientes_validos if c.grupo != "A"]
+return clientes_vip, clientes_ regulares
 
