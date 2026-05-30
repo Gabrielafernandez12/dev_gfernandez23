@@ -90,5 +90,5 @@ print("=" * 40)
 print(f"Clientes Estructurados con Exito : {total_validos}")
 print(f"Clientes Grupo VIP (A)         : {cant_vips} {'' * cant_vips"}
 print(f"Clientes Regulares (B, C, D, E)   : {cant_regulares} {'' * cant_regulares}")
-
+print("=" * 40)
 
