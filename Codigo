@@ -88,4 +88,5 @@ print("\n" + "=" * 40)
 print("        REPORTE ESTADISTICO FINAL        ")
 print("=" * 40)
 print(f"Clientes Estructurados con Exito : {total_validos}")
+print(f"Clientes Grupo VIP (A)         : {cant_vips} {'' * cant_vips"}
 
