@@ -72,5 +72,8 @@ except (ValueError, IndexError):
 return True
 
 
+ReporteComercial:
+"""Encargado de las salidas visuales, alertas e interacciónes con genrencia."""
+
 
 
