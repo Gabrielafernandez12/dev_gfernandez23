@@ -47,7 +47,7 @@ return clientes_vip, clientes_ regulares
 ValidadorReglaslasNegocio:
 """Clase encargada de validar la integridad y consistencia de los datos."""
 
-staticmethod
+@staticmethod
 ef validar_datos(cliente: Cliente) -> bool:
    # 1. Validación de Grupos Permitidos (A, B , C, D, E)
 grupos_permitidos = ["A", "B", "C", "D", "E"]
