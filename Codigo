@@ -85,7 +85,7 @@ def generar_reporte_estadistico(self, total_validos: int, cant_vips: int):
     cant_regulares = total_validos - cant_vips
 
     print("\n" + "=" * 40)
-print("        REPORTE ESTADISTICO FINAL        ")
+    print("        REPORTE ESTADISTICO FINAL        ")
 print("=" * 40)
 print(f"Clientes Estructurados con Exito : {total_validos}")
 print(f"Clientes Grupo VIP (A)         : {cant_vips} {'' * cant_vips"}
