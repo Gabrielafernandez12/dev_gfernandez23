@@ -76,6 +76,6 @@ ass ReporteComercial:
 """Encargado de las salidas visuales, alertas e interacciónes con genrencia."""
 
 ef generar_alerta_vip(self, cliente: Cliente):
-
+"""Simula el envio de una alerta de prioritaria al Gerente de Ventas."""
 
 
