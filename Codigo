@@ -58,3 +58,12 @@ if clientes.grupo not in grupos_permitidos:
 return True
 
 
+# 2. Validación de Fecha (Edge Case: Ni futuro. Límite año actual 2026)
+try:
+    ano_alta = int (cliente.fecha_alta.slipt("_")[0])
+    if ano_alta > 2026:
+        print(f" X [REGLA] Rechazado Cliente {cliente.id_cliente}: "
+              f"Formato de fecha incorrecto.")
+return False
+
+
