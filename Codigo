@@ -55,4 +55,6 @@ if clientes.grupo not in grupos_permitidos:
           f"Grupo inválido '{cliente.grupo}'.")
     return False
 
+return True
+
 
