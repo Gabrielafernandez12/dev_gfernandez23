@@ -19,3 +19,4 @@ if not etl.clientes_cargador:
 
 # 3. Validar integridad de datos (Cimpuerta de Reglas de Negocio)
 print("\n[Analista] Iniciando validación de consistencia...")
+for item_cliente in etl.clientes_cargados:
