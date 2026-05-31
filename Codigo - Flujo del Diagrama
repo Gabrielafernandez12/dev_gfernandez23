@@ -23,4 +23,6 @@ for item_cliente in etl.clientes_cargados:
     if ValidadorReglasNegocio.Validar_datos(item_cliente):
         etl.clientes_validados.append(item_cliente)
 
+# 4. Clasificar los clientes aprobados
+
 
