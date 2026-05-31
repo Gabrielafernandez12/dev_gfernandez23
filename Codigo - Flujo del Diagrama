@@ -16,3 +16,5 @@ etl.extraer_y_cargar_excel()
 if not etl.clientes_cargador:
     print("[Alerta] Archivo sin datos. Proceso detenido (Detach).2)
     exit()
+
+# 3. Validar integridad de datos (Cimpuerta de Reglas de Negocio)
