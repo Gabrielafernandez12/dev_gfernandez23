@@ -12,3 +12,6 @@ reporte = ReporteComercial()
 # 1 y 2. Extraer y Cargar archivo
 etl.extraer_y_cargar_excel()
 
+# Edge Case 3: Verificar si el archivo venía vacío originalmente
+if not etl.clientes_cargador:
+
