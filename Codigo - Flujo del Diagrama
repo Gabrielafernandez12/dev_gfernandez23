@@ -5,5 +5,9 @@
 if __name__ == "__main__":
     print("=== INICIANDO SISTEMA ETL DE GESTIÓN DE CLIENTES ===\N")
 
+# Inicializar componentes
+etl = ProcesadorETL()
+
+
 
 
