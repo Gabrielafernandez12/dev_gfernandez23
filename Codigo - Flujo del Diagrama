@@ -18,3 +18,4 @@ if not etl.clientes_cargador:
     exit()
 
 # 3. Validar integridad de datos (Cimpuerta de Reglas de Negocio)
+print("\n[Analista] Iniciando validación de consistencia...")
