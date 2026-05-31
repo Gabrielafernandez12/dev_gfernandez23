@@ -9,7 +9,6 @@ if __name__ == "__main__":
 etl = ProcesadorETL()
 reporte = ReporteComercial()
 
-# Inicializar componentes
-etl = ProcesadorEtl()
-
+# 1 y 2. Extraer y Cargar archivo
+etl.extraer_y_cargar_excel()
 
