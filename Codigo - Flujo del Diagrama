@@ -33,3 +33,4 @@ for vip_item in vips:
 # 6. Generar las estadísticas finales
 reporte.generar_reporte_estadistico(len(etl.clientes_validos), len(vips))
 
+# 7. Desiciones finales del Gerente de Ventas
