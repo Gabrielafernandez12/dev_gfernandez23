@@ -31,4 +31,5 @@ for vip_item in vips:
     reporte.generar_alerta_vip(vip_item)
 
 # 6. Generar las estadísticas finales
+reporte.generar_reporte_estadistico(len(etl.clientes_validos), len(vips))
 
