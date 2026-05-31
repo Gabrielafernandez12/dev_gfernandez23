@@ -14,4 +14,5 @@ etl.extraer_y_cargar_excel()
 
 # Edge Case 3: Verificar si el archivo venía vacío originalmente
 if not etl.clientes_cargador:
-
+print("[Alerta] Archivo sin datos. Proceso detenido (Detach).2)
+exit()
