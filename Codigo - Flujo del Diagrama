@@ -30,3 +30,5 @@ vips, reguladores = etl.filtrar_y_clasificar()
 for vip_item in vips:
     reporte.generar_alerta_vip(vip_item)
 
+# 6. Generar las estadísticas finales
+
