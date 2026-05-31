@@ -28,4 +28,5 @@ vips, reguladores = etl.filtrar_y_clasificar()
 
 # 5. Evaluar si hay clientes VIP para generar añertas prioritarias
 for vip_item in vips:
+reporte.generar_alerta_vip(vip_item)
 
